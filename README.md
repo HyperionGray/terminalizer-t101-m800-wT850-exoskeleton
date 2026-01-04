@@ -1,3 +1,19 @@
+## New repo who dis?
+
+This is a fork by Hyperion Gray of the terminalizer, an application to record gifs of your terminal and generate automatic html to put 'em up on the web. Seems useful, there's others like it, but we're gonna do it our own way.
+Welcome to the terminalizer - or more officially- The Terminalizer: Cyberdyne Systems Series 100 Model 800 T101. This should be a fun little application. Unless your name is Sarah Connor. 
+
+If your name actually IS Sarah Connor, please contact me, that's rad. I'll (Alex) buy you a beer, I don't care where you live, i'll ship one to you. John Connors - eh, ok i'll buy you a beer too. Anywya, record terminals and stuff, yeah, wooo. Ok done.
+
+- _hyp3ri0n/PAX/The Hacker Formerly Known as P4X or just Alex
+
+
+---
+Original Readme
+---
+
+
+
 <p align="center">
   <a href="https://www.terminalizer.com">
     <img src="/img/logo.png?raw=true" width="200"/>
