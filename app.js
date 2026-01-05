@@ -74,8 +74,6 @@ yargs.command(commands.init)
      .command(commands.share)
      .command(commands.generate)
 
-debugger;
-
 try {
 
   // Parse the command line arguments
