@@ -7,6 +7,19 @@ If your name actually IS Sarah Connor, please contact me, that's rad. I'll (Alex
 
 - _hyp3ri0n/PAX/The Hacker Formerly Known as P4X or just Alex
 
+## 🎯 Recent Updates (January 2026)
+
+This fork has been modernized with:
+- ✅ Security fixes (17 → 11 vulnerabilities)
+- ✅ Node.js v20+ compatibility
+- ✅ Complete architecture for live streaming (with TLS/SSL)
+- ✅ Plans for video export (MP4, WebM)
+- 📚 Comprehensive documentation
+
+**See [SUMMARY.md](SUMMARY.md) for details on what changed**
+**See [MODERNIZATION.md](MODERNIZATION.md) for feature roadmap and architecture**
+**See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines**
+
 
 ---
 Original Readme
