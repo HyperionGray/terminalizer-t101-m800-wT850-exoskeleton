@@ -19,17 +19,19 @@ This fork has been modernized with:
 
 ### 📖 Documentation
 
-**Getting Started:**
-- [SUMMARY.md](SUMMARY.md) - What changed in this fork
-- [CODEBASE_ANALYSIS.md](CODEBASE_ANALYSIS.md) - Current codebase strengths & weaknesses
+**Start Here:**
+- [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) - **Complete documentation guide** (start here!)
+- [QUICKSTART.md](QUICKSTART.md) - TL;DR summary of text capture & command editing
 
 **Feature Planning:**
-- [IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md) - **START HERE** for text capture & command editing
+- [IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md) - Step-by-step implementation guide
 - [TEXT_CAPTURE_ARCHITECTURE.md](TEXT_CAPTURE_ARCHITECTURE.md) - Detailed technical architecture
+- [CODEBASE_ANALYSIS.md](CODEBASE_ANALYSIS.md) - Current codebase strengths & weaknesses
 - [MODERNIZATION.md](MODERNIZATION.md) - Live streaming & video export roadmap
 
 **Development:**
 - [CONTRIBUTING.md](CONTRIBUTING.md) - Development guidelines
+- [SUMMARY.md](SUMMARY.md) - What changed in this fork
 
 
 ---
