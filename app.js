@@ -72,9 +72,8 @@ yargs.command(commands.init)
      .command(commands.play)
      .command(commands.render)
      .command(commands.share)
+     .command(commands.stream)
      .command(commands.generate)
-
-debugger;
 
 try {
 

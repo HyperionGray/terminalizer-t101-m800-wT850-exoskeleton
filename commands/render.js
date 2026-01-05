@@ -297,6 +297,22 @@ function done(outputFile) {
  * @param {Object} argv
  */
 function command(argv) {
+  // Check if unsupported format is requested
+  if (argv.format && argv.format !== 'gif') {
+    console.log(di.chalk.yellow('⚠️  The ' + argv.format + ' format is not yet implemented.'));
+    console.log();
+    console.log('Currently supported formats:');
+    console.log('  • ' + di.chalk.green('gif') + ' - Animated GIF (default)');
+    console.log();
+    console.log('Planned formats (see MODERNIZATION.md for details):');
+    console.log('  • ' + di.chalk.yellow('mp4') + ' - H.264 video (better quality, smaller size)');
+    console.log('  • ' + di.chalk.yellow('webm') + ' - VP9 video (modern, royalty-free)');
+    console.log('  • ' + di.chalk.yellow('png-sequence') + ' - PNG frames for post-processing');
+    console.log();
+    console.log('Falling back to GIF format...');
+    console.log();
+  }
+
   // Frames
   var records = argv.recordingFile.json.records;
   var config = argv.recordingFile.json.config;
@@ -433,5 +449,15 @@ module.exports.builder = function (yargs) {
     describe: "To reduce the number of rendered frames (step > 1)",
     requiresArg: true,
     default: 1,
+  });
+
+  // Define the format option (future enhancement)
+  yargs.option("f", {
+    alias: "format",
+    type: "string",
+    describe: "Output format: gif (default), mp4, webm, png-sequence (mp4/webm/png-sequence not yet implemented)",
+    requiresArg: true,
+    default: "gif",
+    choices: ["gif", "mp4", "webm", "png-sequence"]
   });
 };
