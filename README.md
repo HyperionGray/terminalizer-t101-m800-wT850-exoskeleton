@@ -14,11 +14,24 @@ This fork has been modernized with:
 - ✅ Node.js v20+ compatibility
 - ✅ Complete architecture for live streaming (with TLS/SSL)
 - ✅ Plans for video export (MP4, WebM)
+- ✅ **NEW:** Architecture for text capture with time travel & command editing
 - 📚 Comprehensive documentation
 
-**See [SUMMARY.md](SUMMARY.md) for details on what changed**
-**See [MODERNIZATION.md](MODERNIZATION.md) for feature roadmap and architecture**
-**See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines**
+### 📖 Documentation
+
+**Start Here:**
+- [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) - **Complete documentation guide** (start here!)
+- [QUICKSTART.md](QUICKSTART.md) - TL;DR summary of text capture & command editing
+
+**Feature Planning:**
+- [IMPLEMENTATION_ROADMAP.md](IMPLEMENTATION_ROADMAP.md) - Step-by-step implementation guide
+- [TEXT_CAPTURE_ARCHITECTURE.md](TEXT_CAPTURE_ARCHITECTURE.md) - Detailed technical architecture
+- [CODEBASE_ANALYSIS.md](CODEBASE_ANALYSIS.md) - Current codebase strengths & weaknesses
+- [MODERNIZATION.md](MODERNIZATION.md) - Live streaming & video export roadmap
+
+**Development:**
+- [CONTRIBUTING.md](CONTRIBUTING.md) - Development guidelines
+- [SUMMARY.md](SUMMARY.md) - What changed in this fork
 
 
 ---
